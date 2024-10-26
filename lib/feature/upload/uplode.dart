@@ -74,14 +74,14 @@ class _UplodeState extends State<Uplode> {
                 ),
                 const Gap(20),
                 CustomButton(
-                  text: "Uplode Form Camera",
+                  text: "Uplode From Camera",
                   onPressed: () {
                     pickImage(true);
                   },
                 ),
                 const Gap(20),
                 CustomButton(
-                  text: "Uplode Form Gallery",
+                  text: "Uplode From Gallery",
                   onPressed: () {
                     pickImage(false);
                   },
